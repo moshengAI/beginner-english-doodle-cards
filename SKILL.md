@@ -1,9 +1,9 @@
 ---
-name: beginner-english-doodle-cards
+name: english-doodle
 description: Create 9:16 beginner-English vocabulary cards and matching scenic illustrations in a cohesive hand-drawn Chinese tea-poster aesthetic. Use when the user asks for English memory cards, topic vocabulary posters, city/food/clothing illustrations, or a matching set of educational visuals.
 ---
 
-# Beginner English Doodle Cards
+# English Doodle Cards
 
 Create a reusable visual system for beginner-English short-video content. Keep every asset warm, playful, legible, and visually related to the existing series.
 
@@ -87,7 +87,7 @@ bash scripts/install.sh --all --archive /path/to/beginner-english-doodle-cards.s
 
 ```
 
-After installation, the user may invoke `$beginner-english-doodle-cards` in the target agent.
+After installation, the user may invoke `$english-doodle` in the target agent.
 
 ## Prompt templates
 
