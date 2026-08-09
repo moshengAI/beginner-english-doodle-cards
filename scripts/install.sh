@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SKILL_NAME="beginner-english-doodle-cards"
-ARCHIVE="${BEGINNER_ENGLISH_DOODLE_CARDS_ARCHIVE:-}"
+SKILL_NAME="english-doodle"
+ARCHIVE="${ENGLISH_DOODLE_ARCHIVE:-${BEGINNER_ENGLISH_DOODLE_CARDS_ARCHIVE:-}}"
 TARGETS=()
 TEMP_DIR=""
 SOURCE_DIR=""
 
 usage() {
   cat <<'EOF'
-Install beginner-english-doodle-cards for Codex and other agent runtimes.
+Install english-doodle for Codex and other agent runtimes.
 
 Usage:
   install.sh [--target codex|claude|agents|grok|all] [--archive PATH_OR_URL]
