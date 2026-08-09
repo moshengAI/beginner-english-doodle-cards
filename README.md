@@ -1,4 +1,4 @@
-# Beginner English Doodle Cards
+# English Doodle Cards
 
 用于制作 9:16 初级英语词汇卡片和配套场景插图的 Agent Skill。
 
@@ -16,7 +16,7 @@ npx -y skills add moshengAI/beginner-english-doodle-cards -g --all
 npx -y skills add moshengAI/beginner-english-doodle-cards -g --agent codex
 ```
 
-安装后新建一次对话，然后可以使用 `$beginner-english-doodle-cards`。
+安装后新建一次对话，然后可以使用 `$english-doodle`。
 
 ## Install from an archive
 
