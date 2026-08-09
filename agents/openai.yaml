@@ -1,7 +1,7 @@
 interface:
-  display_name: "Beginner English Doodle Cards"
+  display_name: "English Doodle Cards"
   short_description: "9:16 beginner English doodle cards"
-  default_prompt: "Use $beginner-english-doodle-cards to create a cohesive 9:16 beginner-English memory card or matching scenic illustration."
+  default_prompt: "Use $english-doodle to create a cohesive 9:16 beginner-English memory card or matching scenic illustration."
 
 policy:
   allow_implicit_invocation: true
